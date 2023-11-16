@@ -29,6 +29,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
     Plug 'prabirshrestha/vim-lsp'
+    Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
     Plug 'preservim/nerdtree'
     Plug 'tpope/vim-commentary'
     Plug 'marcweber/vim-addon-mw-utils'
