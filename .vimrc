@@ -1,18 +1,17 @@
 colorscheme peachpuff
 syntax on
-colorscheme dogrun
-colorscheme gruvbox 
 set number
 set ruler
 set showcmd
+set relativenumber
 syntax on
 filetype plugin indent on
-nnoremap <Ctrl-x> :w<CR>
 set expandtab
 set tabstop=4
 set shiftwidth=4
-
+set backspace=indent,eol,start
 set encoding=utf-8
+
 
 hi CursorLineNr guifg=#af00af
 set cursorline
@@ -32,9 +31,20 @@ call plug#begin()
     Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
     Plug 'preservim/nerdtree'
     Plug 'tpope/vim-commentary'
-    Plug 'marcweber/vim-addon-mw-utils'
-    Plug 'tomtom/tlib_vim'
+    "Plug 'marcweber/vim-addon-mw-utils'
+    "Plug 'tomtom/tlib_vim'
     Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+    "Plug 'ziglang/zig.vim'
+    Plug 'godlygeek/tabular'
+    Plug 'vim-airline/vim-airline'
+    Plug 'wadackel/vim-dogrun'
+    Plug 'honza/vim-snippets'
+    Plug 'garbas/vim-snipmate'
+    Plug 'MarcWeber/vim-addon-mw-utils'
 call plug#end()
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+colorscheme dogrun
+colorscheme gruvbox 
+
