@@ -26,25 +26,35 @@ set statusline +=%2*0x%04B\ %*          "character under cursor
 nnoremap <C-t> :NERDTreeToggle<CR>
 let g:vimsence_client_id = '439476230543245312'
 call plug#begin()
+    " LSPs and syntax
     Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
     Plug 'prabirshrestha/vim-lsp'
     Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
-    Plug 'preservim/nerdtree'
-    Plug 'tpope/vim-commentary'
     Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
     "Plug 'ziglang/zig.vim'
+    " Development
+    Plug 'fidian/hexmode'
     Plug 'godlygeek/tabular'
-    Plug 'vim-airline/vim-airline'
-    Plug 'wadackel/vim-dogrun'
-    Plug 'honza/vim-snippets'
+    Plug 'tpope/vim-commentary'
     Plug 'garbas/vim-snipmate'
+    Plug 'honza/vim-snippets'
+    " Misc
+    Plug 'preservim/nerdtree'
+    Plug 'vim-airline/vim-airline'
+    Plug 'enricobacis/vim-airline-clock'
     Plug 'MarcWeber/vim-addon-mw-utils'
     Plug 'ntpeters/vim-better-whitespace'
     Plug 'wakatime/vim-wakatime'
+    Plug 'severin-lemaignan/vim-minimap'
+    Plug 'wfxr/minimap.vim'
+    " Colorschemes
+    Plug 'wadackel/vim-dogrun'
+    Plug 'treycucco/vim-monotonic'
 call plug#end()
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
-colorscheme dogrun
-colorscheme gruvbox 
+"colorscheme dogrun
+colorscheme monotonic-light
 
+autocmd VimEnter * NERDTree | wincmd p
