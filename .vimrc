@@ -24,6 +24,7 @@ set statusline +=%2*/%L%*               "total lines
 set statusline +=%1*%4v\ %*             "virtual column number
 set statusline +=%2*0x%04B\ %*          "character under cursor
 nnoremap <C-t> :NERDTreeToggle<CR>
+let g:ttvchat_channel="tsoding"
 let g:vimsence_client_id = '439476230543245312'
 call plug#begin()
     " LSPs and syntax
@@ -47,14 +48,16 @@ call plug#begin()
     Plug 'wakatime/vim-wakatime'
     Plug 'severin-lemaignan/vim-minimap'
     Plug 'wfxr/minimap.vim'
+    Plug 'younase/vim-ttv-chat'
+    Plug 'mechatroner/rainbow_csv'
+    Plug 'alpertuna/vim-header'
     " Colorschemes
     Plug 'wadackel/vim-dogrun'
     Plug 'treycucco/vim-monotonic'
 call plug#end()
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
 "colorscheme dogrun
 colorscheme monotonic-light
 
-autocmd VimEnter * NERDTree | wincmd p
+"autocmd VimEnter * NERDTree | wincmd p
