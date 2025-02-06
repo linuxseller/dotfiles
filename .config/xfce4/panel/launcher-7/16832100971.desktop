@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Analog Lab V
-Exec=env WINEPREFIX="/home/user/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Arturia\\\\Analog\\ Lab\\ V\\\\Analog\\ Lab\\ V.lnk
-Type=Application
-StartupNotify=true
-Path=/home/user/.wine/dosdevices/c:/Program Files/Arturia/Analog Lab V
-Icon=A325_Analog Lab V.0
-StartupWMClass=analog lab v.exe
-X-XFCE-Source=file:///home/user/.local/share/applications/wine/Programs/Arturia/Analog%20Lab%20V/Analog%20Lab%20V.desktop

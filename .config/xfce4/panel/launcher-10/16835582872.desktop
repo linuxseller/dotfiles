@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Mindustry
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/1127400
-Icon=steam_icon_1127400
-Terminal=false
-Type=Application
-Categories=Game;
-X-XFCE-Source=file:///home/user/.local/share/applications/Mindustry.desktop

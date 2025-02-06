@@ -21,15 +21,11 @@ filetype plugin indent on
 colorscheme gruber
 nnoremap <C-t> :tabNext<CR>
 
-call plug#begin()
-    Plug 'godlygeek/tabular'
-    Plug 'tpope/vim-commentary'
-    Plug 'garbas/vim-snipmate'
-    Plug 'honza/vim-snippets'
-    Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-    Plug 'MarcWeber/vim-addon-mw-utils'
-    Plug 'ntpeters/vim-better-whitespace'
-call plug#end()
+set runtimepath^=~/.vim/pluginv/commentary.vim
+set runtimepath^=~/.vim/pluginv/Tabular.vim
+set runtimepath^=~/.vim/pluginv/better-whitespace.vim
+
+"Plug 'godlygeek/tabular'
 
 set gfn=Iosevka\ Medium\ Expanded\ 18
 set go-=T
