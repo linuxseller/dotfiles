@@ -1,9 +1,0 @@
-configuration {
-  modes: [ combi ];
-  combi-modes: [ window, drun, run ];
-}
-
-//@theme "gruvbox-dark"
-
-//@theme "/usr/share/rofi/themes/iggy.rasi"
-@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
