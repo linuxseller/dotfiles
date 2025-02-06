@@ -1,1 +1,23 @@
-apulse base-system bash-completion brltty clang cryptsetup dialog dmenu espeakup firefox gimp git glew-devel grub-i386-efi grub-x86_64-efi htop i3 i3status libXcursor-devel libXi-devel libXinerama-devel libXrandr-devel libatomic-devel lvm2 make man-pages-devel mdadm mpv ncdu2 pcmanfm pfetch pkg-config pmount python3 rofi telegram-desktop vim vim-colorschemes-20200515_1 void-docs-browse void-live-audio xcompmgr xfce4-terminal xmirror xorg xtools-minimal yt-dlp 
+# compiling
+gcc clang tcc make cmake tmux
+
+# programming
+vim-huge git valgrind man-pages-devel man-pages-posix
+
+# network
+curl wget
+
+# misc
+pfetch gdu htop zip unzip netcat mc lm_sensors jq acpi
+
+# x11
+xorg i3 i3status xcompmgr
+
+# fonts
+font-iosevka noto-fonts-cjk noto-fonts-ttf
+
+# x11 apps
+feh firefox gimp libreoffice audacity kdenlive telegram-desktop qbittorrent rofi obs xfe xfce4-terminal mpv pcmanfm mypaint qemu-system-amd64
+
+# file systems
+cifs-utils ntfs-3g samba samba-cups pmount

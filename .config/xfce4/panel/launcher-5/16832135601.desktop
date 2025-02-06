@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=reddit
+Comment=open reddit
+Exec=firefox www.reddit.com
+Icon=firefox
+Path=
+Terminal=false
+StartupNotify=false

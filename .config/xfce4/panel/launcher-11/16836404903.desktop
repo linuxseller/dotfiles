@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Êóìèð-Ñòàíäàðò
+Exec=env WINEPREFIX="/home/user/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Êóìèð\\ 2.1.0-rc11\\\\Êóìèð-Ñòàíäàðò.lnk
+Type=Application
+StartupNotify=true
+Path=/home/user/.wine/dosdevices/c:/Program Files (x86)/Kumir-2.1.0-rc11/python
+Icon=F27E_kumir2-classic.0
+StartupWMClass=kumir2-classic.exe
+X-XFCE-Source=file:///home/user/.local/share/applications/wine/Programs/%C3%8A%C3%B3%C3%AC%C3%A8%C3%B0%202.1.0-rc11/%C3%8A%C3%B3%C3%AC%C3%A8%C3%B0-%C3%91%C3%B2%C3%A0%C3%AD%C3%A4%C3%A0%C3%B0%C3%B2.desktop
