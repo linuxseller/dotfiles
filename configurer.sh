@@ -4,7 +4,7 @@
 apps=(
 "gcc clang tcc make cmake go" \
 "vim-huge git valgrind man-pages-devel man-pages-posix tmux ctags cloc ed gdb openjdk" \
-"curl wget netcat nmap traceroute" \
+"curl wget netcat traceroute" \
 "gdu htop zip unzip netcat mc lm_sensors jq acpi PopCorn os-prober" \
 "xorg xrandr i3 i3status xcompmgr alsa-utils alsa-tools alsa-plugins-pulseaudio dbus-elogind" \
 "font-iosevka noto-fonts-cjk noto-fonts-ttf" \
