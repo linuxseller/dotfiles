@@ -1,23 +1,29 @@
 # compiling
-gcc clang tcc make cmake tmux
+gcc clang tcc make cmake go
 
 # programming
-vim-huge git valgrind man-pages-devel man-pages-posix
+vim-huge git valgrind man-pages-devel man-pages-posix tmux ctags cloc ed gdb openjdk
 
 # network
-curl wget
+curl wget netcat nmap traceroute
 
 # misc
-pfetch gdu htop zip unzip netcat mc lm_sensors jq acpi
+gdu htop zip unzip netcat mc lm_sensors jq acpi PopCorn os-prober
 
 # x11
-xorg i3 i3status xcompmgr
+xorg xrandr i3 i3status xcompmgr alsa-utils alsa-tools alsa-plugins-pulseaudio dbus-elogind
 
 # fonts
 font-iosevka noto-fonts-cjk noto-fonts-ttf
 
 # x11 apps
-feh firefox gimp libreoffice audacity kdenlive telegram-desktop qbittorrent rofi obs xfe xfce4-terminal mpv pcmanfm mypaint qemu-system-amd64
+firefox libreoffice telegram-desktop qbittorrent rofi obs xfe xfce4-terminal pcmanfm qemu-system-amd64 xcompmgr mupdf scrot
+
+# media
+ffmpeg mpv feh ImageMagick gimp audacity kdenlive mypaint ffmepgthumbnailer
 
 # file systems
 cifs-utils ntfs-3g samba samba-cups pmount
+
+# fun
+pfetch fastfetch cowsay fortune
