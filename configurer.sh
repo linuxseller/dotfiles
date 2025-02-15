@@ -15,15 +15,15 @@ apps=(
 
 # Create a dialog checklist
 choices=$(dialog --checklist "Select applications to install:" 15 50 4 \
-    1 "compiling" on \
-    2 "programming" on \
+    1 "compiling" off \
+    2 "programming" off \
     3 "network" on \
-    4 "misc" on \
-    5 "x11" on \
-    6 "fonts" on \
-    7 "x11 apps" on \
-    8 "media" on \
-    9 "file systems" on \
+    4 "misc" off \
+    5 "x11" off \
+    6 "fonts" off \
+    7 "x11 apps" off \
+    8 "media" off \
+    9 "file systems" off \
     10 "fun" on \
     3>&1 1>&2 2>&3)
 
@@ -42,3 +42,4 @@ reset
 # Display the selected applications
 echo "${selected_apps[@]}"
 echo $selected_apps
+sudo xbps-install $selected_apps[@]
