@@ -42,4 +42,6 @@ reset
 # Display the selected applications
 echo "${selected_apps[@]}"
 echo $selected_apps
-sudo xbps-install $selected_apps[@]
+for i in "${selected_apps[@]}"; do
+    sudo xbps-install $i;
+done;
